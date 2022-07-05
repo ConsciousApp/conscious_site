@@ -4,6 +4,7 @@ import { About } from './components/About/About';
 import { Contact } from './components/Contact/Contact';
 import { Header } from './components/Header/Header';
 import { Landing } from './components/Landing/Landing';
+import "inter-ui/inter.css";
 
 import {
   BrowserRouter as Router,
@@ -16,7 +17,12 @@ import {
 
 function App() {
   return (
-    <div>
+    <div
+      className='App'
+      style={{
+        fontFamily: 'Inter'
+      }}
+    >
       <Router>
         <Header />
         <Routes>

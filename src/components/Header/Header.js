@@ -1,37 +1,26 @@
-import {
-  NavLink,
-  Router
-} from "react-router-dom";
+import { NavBar } from '../NavBar/NavBar';
+import { NavLinks } from './NavLinks';
+import { Logo } from '../Logo/Logo';
 
 const Header = () => {
   return (
-    <>
-      <NavLink
-        to="/"
-        className={isActive =>
-          "nav-link" + (!isActive ? " unselected" : "")
-        }
+    <NavBar>
+      <div
+        style={{
+          display: 'flex',
+          height: 40,
+          width: 593,
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          border: '1px solid black',
+          gap: 32
+        }}
       >
-        Home
-      </NavLink>
-      <NavLink
-        to="/about"
-        className={isActive =>
-          "nav-link" + (!isActive ? " unselected" : "")
-        }
-      >
-        About
-      </NavLink>
-
-      <NavLink
-        to="/contact"
-        className={isActive =>
-          "nav-link" + (!isActive ? " unselected" : "")
-        }
-      >
-        Contact
-      </NavLink>
-    </>
+        <Logo>
+        </Logo>
+        <NavLinks/>
+      </div>
+    </NavBar>
   )
 }
 
