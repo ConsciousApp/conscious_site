@@ -4,6 +4,10 @@ import { Logo } from '../Logo/Logo';
 
 const Header = () => {
   return (
+    <div style={{
+        position: 'absolute',
+        zIndex:1
+      }}>
     <NavBar>
       <div
         style={{
@@ -12,7 +16,6 @@ const Header = () => {
           width: 593,
           alignItems: 'center',
           justifyContent: 'space-between',
-          border: '1px solid black',
           gap: 32
         }}
       >
@@ -21,6 +24,7 @@ const Header = () => {
         <NavLinks/>
       </div>
     </NavBar>
+    </div>
   )
 }
 

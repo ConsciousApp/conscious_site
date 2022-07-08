@@ -34,7 +34,7 @@ const NavLinks = () => {
         "nav-link" + (!isActive ? " unselected" : "")
       }
     >
-      Our Mission
+      Our Values
     </NavLink>
 
     <NavLink
