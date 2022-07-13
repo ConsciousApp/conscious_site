@@ -59,9 +59,9 @@ const LandingBody = () => {
           method="post"
           id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form"
-          class="validate"
+          className="validate"
           target="_blank"
-          novalidate
+          noValidate
         >
           <input
             style={{
@@ -84,7 +84,7 @@ const LandingBody = () => {
             onChange= { (e)=>setEmail(e.target.value) }
             value={email}
             name="EMAIL"
-            class="required email"
+            className="required email"
             id="mce-EMAIL"
           />
           <input
@@ -106,7 +106,7 @@ const LandingBody = () => {
             value="Sign Up"
             name="subscribe"
             id="mc-embedded-subscribe"
-            class="button"
+            className="button"
           />
         </form>
       </div>
