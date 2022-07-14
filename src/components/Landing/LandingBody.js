@@ -100,6 +100,7 @@ const LandingBody = () => {
               backgroundColor: '#125D56',
               color: '#FFFFFF',
               border: '1px solid #15B79E',
+              fontSize: 16,
               borderRadius: 8
             }}
             type="submit"
