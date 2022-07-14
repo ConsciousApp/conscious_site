@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/conscious_site/static/css/main.f060a8d0.css",
-    "main.js": "/conscious_site/static/js/main.1a4279cd.js",
+    "main.js": "/conscious_site/static/js/main.5f69be64.js",
     "static/media/LandingLogo.png": "/conscious_site/static/media/LandingLogo.53d545893c5d7f468827.png",
     "static/media/Inter.var.woff2?v=3.19": "/conscious_site/static/media/Inter.var.c2fe3cb2b7c746f7966a.woff2",
     "static/media/Inter-italic.var.woff2?v=3.19": "/conscious_site/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
@@ -50,10 +50,10 @@
     "static/media/darker-grotesque-vietnamese-400-normal.woff2": "/conscious_site/static/media/darker-grotesque-vietnamese-400-normal.3b4a87d63a645fd32a5e.woff2",
     "index.html": "/conscious_site/index.html",
     "main.f060a8d0.css.map": "/conscious_site/static/css/main.f060a8d0.css.map",
-    "main.1a4279cd.js.map": "/conscious_site/static/js/main.1a4279cd.js.map"
+    "main.5f69be64.js.map": "/conscious_site/static/js/main.5f69be64.js.map"
   },
   "entrypoints": [
     "static/css/main.f060a8d0.css",
-    "static/js/main.1a4279cd.js"
+    "static/js/main.5f69be64.js"
   ]
 }
