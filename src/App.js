@@ -30,6 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
 
           <Route path="/" element={<Landing/>}/>
+          <Route path="/conscious_site" element={<Landing/>}/>
 
         </Routes>
         <Footer />
