@@ -58,7 +58,7 @@ const Form = () => {
                   value={firstName}
                   onChange={(e)=>setFirstName(e.target.value)}
                   type='text'
-                  placeholder='Joe'
+                  placeholder='first name'
                   name='firstName'
                   className='input'
                 />
@@ -74,7 +74,7 @@ const Form = () => {
                   value={lastName}
                   onChange={(e)=>setLastName(e.target.value)}
                   type='text'
-                  placeholder='Schmoe'
+                  placeholder='last name'
                   name='lastName'
                   className='input'
                 />
@@ -90,7 +90,7 @@ const Form = () => {
                 value={email}
                 onChange={(e)=>setEmail(e.target.value)}
                 type='email'
-                placeholder='joe@schmoe.com'
+                placeholder='email'
                 name='email'
                 className='wideInput'
               />

@@ -380,6 +380,9 @@
 }
 
 .icon {
+  display:flex;
+  flex-direction:flex-start;
+  gap:20;
   width: 48px;
   height: 48px;
 
