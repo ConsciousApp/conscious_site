@@ -5,8 +5,8 @@ const Logo = (props) => {
       src={require("../../assets/Logo.png")}
       className={props.classStyle || 'defaultLogo'}
       alt="Conscious Logo"
-      height={props.height || 253}
-      width={props.width || 54}
+      height={props.height || 54}
+      width={props.width || 253}
     >
     </img>
   )
