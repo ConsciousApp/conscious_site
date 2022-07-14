@@ -19,8 +19,7 @@ const Header = () => {
           gap: 32
         }}
       >
-        <Logo>
-        </Logo>
+        <Logo/>
         <NavLinks/>
       </div>
     </NavBar>

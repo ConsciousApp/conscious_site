@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 24px 24px 24px;
+  position: fixed;
+  width: 100vw;
+  min-height: 3vh;
+  max-height: 21vh;
+  background: #D9EEE9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  bottom: 0;
+  z-index: 1;
+}
+.footerLogo {
+
+  width: 110px;
+  height: 24px;
+}
+
+.copyright {
+  width: 293px;
+  height: 24px;
+
+  /* Text md/Normal */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  color: #98A2B3;
+}

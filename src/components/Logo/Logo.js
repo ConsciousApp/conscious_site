@@ -1,14 +1,9 @@
-
-const Logo = () => {
+import './Logo.css'
+const Logo = (props) => {
   return (
     <img
       src={require("../../assets/Logo.png")}
-      style={{
-        width: 253,
-        height:54,
-        padding: 0,
-        gap: 8
-      }}
+      className={props.classStyle || 'defaultLogo'}
       alt="Conscious Logo"
     >
     </img>
